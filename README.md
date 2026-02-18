@@ -13,44 +13,8 @@
 > *Every constellation grants power to those worthy of their sponsorship.*
 
 <div align="center">
+<img src="./orv_reg.svg" width="100%" />
 
-<!-- LANGUAGE / FRAMEWORK BADGES — customize to your actual stack -->
-
-**[ Languages ]**
-
-![Python](https://img.shields.io/badge/Python-1a1040?style=for-the-badge&logo=python&logoColor=f0c040)
-![Pandas](https://img.shields.io/badge/Pandas-1a1040?style=for-the-badge&logo=pandas&logoColor=f0c040)
-![NumPy](https://img.shields.io/badge/NumPy-1a1040?style=for-the-badge&logo=numpy&logoColor=f0c040)
-![PyTorch](https://img.shields.io/badge/PyTorch-1a1040?style=for-the-badge&logo=pytorch&logoColor=f0c040)
-![SQL](https://img.shields.io/badge/SQL-1a1040?style=for-the-badge&logo=postgresql&logoColor=f0c040)
-![C++](https://img.shields.io/badge/C++-1a1040?style=for-the-badge&logo=cplusplus&logoColor=f0c040)
-![C](https://img.shields.io/badge/C-1a1040?style=for-the-badge&logo=c&logoColor=f0c040)
-![ASM](https://img.shields.io/badge/ASM-1a1040?style=for-the-badge&logo=assemblyscript&logoColor=f0c040)
-![Java](https://img.shields.io/badge/Java-1a1040?style=for-the-badge&logo=openjdk&logoColor=f0c040)
-![HTML5](https://img.shields.io/badge/HTML5-1a1040?style=for-the-badge&logo=html5&logoColor=f0c040)
-![CSS3](https://img.shields.io/badge/CSS3-1a1040?style=for-the-badge&logo=css3&logoColor=f0c040)
-![JavaScript](https://img.shields.io/badge/JavaScript-1a1040?style=for-the-badge&logo=javascript&logoColor=f0c040)
-
-**[ Frameworks & Arsenals ]**
-
-![React](https://img.shields.io/badge/React-0d0d2b?style=for-the-badge&logo=react&logoColor=61dafb)
-![Node.js](https://img.shields.io/badge/Node.js-0d0d2b?style=for-the-badge&logo=nodedotjs&logoColor=6dbf67)
-![FastAPI](https://img.shields.io/badge/FastAPI-0d0d2b?style=for-the-badge&logo=fastapi&logoColor=00d4aa)
-![Docker](https://img.shields.io/badge/Docker-0d0d2b?style=for-the-badge&logo=docker&logoColor=2496ed)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-0d0d2b?style=for-the-badge&logo=kubernetes&logoColor=326ce5)
-
-**[ Constellations — Cloud ]**
-
-![Azure](https://img.shields.io/badge/Azure-0a0a1a?style=for-the-badge&logo=microsoftazure&logoColor=f0c040)
-![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0a0a1a?style=for-the-badge&logo=digitalocean&logoColor=f0c040)
-![Heroku](https://img.shields.io/badge/Heroku-0a0a1a?style=for-the-badge&logo=heroku&logoColor=f0c040)
-![MongoDB](https://img.shields.io/badge/MongoDB-0a0a1a?style=for-the-badge&logo=mongodb&logoColor=f0c040)
-![Vercel](https://img.shields.io/badge/Vercel-0a0a1a?style=for-the-badge&logo=vercel&logoColor=f0c040)
-![Postman](https://img.shields.io/badge/Postman-0a0a1a?style=for-the-badge&logo=postman&logoColor=f0c040)
-![JetBrains](https://img.shields.io/badge/JetBrains-0a0a1a?style=for-the-badge&logo=jetbrains&logoColor=f0c040)
-![Unity](https://img.shields.io/badge/Unity-0a0a1a?style=for-the-badge&logo=unity&logoColor=f0c040)
-![Arduino](https://img.shields.io/badge/Arduino-0a0a1a?style=for-the-badge&logo=arduino&logoColor=f0c040)
-![Figma](https://img.shields.io/badge/Figma-0a0a1a?style=for-the-badge&logo=figma&logoColor=f0c040)
 
 </div>
 
