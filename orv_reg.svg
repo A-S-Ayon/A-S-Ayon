@@ -114,21 +114,13 @@
     [ LANGUAGES ]
   </text>
 
-  <!-- Row 1: Python, Pandas, NumPy, SQL -->
+  <!-- Row 1: Python, SQL -->
   <!-- Python -->
   <rect x="36"  y="104" width="188" height="28" rx="2" fill="url(#badgeLang)" stroke="#f0c040" stroke-width="0.8" stroke-opacity="0.4"/>
   <circle cx="52" cy="118" r="4" fill="#4B8BBE" opacity="0.9"/>
   <text x="63" y="122" fill="#f0c040" font-size="11.5" font-weight="bold" letter-spacing="1">PYTHON</text>
 
-  <!-- Pandas -->
-  <rect x="232" y="104" width="188" height="28" rx="2" fill="url(#badgeLang)" stroke="#f0c040" stroke-width="0.8" stroke-opacity="0.4"/>
-  <circle cx="248" cy="118" r="4" fill="#130754" stroke="#f0c040" stroke-width="1" opacity="0.9"/>
-  <text x="259" y="122" fill="#f0c040" font-size="11.5" font-weight="bold" letter-spacing="1">PANDAS</text>
 
-  <!-- NumPy -->
-  <rect x="428" y="104" width="188" height="28" rx="2" fill="url(#badgeLang)" stroke="#f0c040" stroke-width="0.8" stroke-opacity="0.4"/>
-  <circle cx="444" cy="118" r="4" fill="#4DABCF" opacity="0.9"/>
-  <text x="455" y="122" fill="#f0c040" font-size="11.5" font-weight="bold" letter-spacing="1">NUMPY</text>
 
   <!-- SQL -->
   <rect x="624" y="104" width="188" height="28" rx="2" fill="url(#badgeLang)" stroke="#f0c040" stroke-width="0.8" stroke-opacity="0.4"/>
@@ -156,7 +148,7 @@
   <circle cx="640" cy="152" r="4" fill="#ED8B00" opacity="0.9"/>
   <text x="651" y="156" fill="#f0c040" font-size="11.5" font-weight="bold" letter-spacing="1">JAVA</text>
 
-  <!-- Row 3: HTML5, CSS3, JavaScript, PyTorch -->
+  <!-- Row 3: HTML5, CSS3, JavaScript -->
   <!-- HTML5 -->
   <rect x="36"  y="172" width="188" height="28" rx="2" fill="url(#badgeLang)" stroke="#f0c040" stroke-width="0.8" stroke-opacity="0.4"/>
   <circle cx="52" cy="186" r="4" fill="#E34F26" opacity="0.9"/>
