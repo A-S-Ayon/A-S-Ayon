@@ -21,14 +21,14 @@
 
 ```
 ╔══════════════════════════════════════════════════════════╗
-║           ✦  STATUS  WINDOW  ✦                           ║
+║           ✦  STATUS  WINDOW  ✦                          ║
 ║                                                          ║
-║   Name    :  [ YOUR NAME ]                               ║
-║   Class   :  Full-Stack Engineer / Omniscient Reader     ║
+║   Name    :  [ A.S.Ayon]                                 ║
+║   Class   :  Jack of all Trades                          ║
 ║   Scenario:  [ 1863rd Turn — Final Arc ]                 ║
 ║   Coins   :  ████████████████░░░░  ∞                     ║
 ║                                                          ║
-║   "I am the only one who has read this story to the end" ║
+║   "Overserving a world never meant to understand"        ║
 ╚══════════════════════════════════════════════════════════╝
 ```
 
@@ -47,10 +47,17 @@
 **[ Languages ]**
 
 ![Python](https://img.shields.io/badge/Python-1a1040?style=for-the-badge&logo=python&logoColor=f0c040)
-![TypeScript](https://img.shields.io/badge/TypeScript-1a1040?style=for-the-badge&logo=typescript&logoColor=f0c040)
-![Go](https://img.shields.io/badge/Go-1a1040?style=for-the-badge&logo=go&logoColor=f0c040)
-![Rust](https://img.shields.io/badge/Rust-1a1040?style=for-the-badge&logo=rust&logoColor=f0c040)
+![Pandas](https://img.shields.io/badge/Pandas-1a1040?style=for-the-badge&logo=pandas&logoColor=f0c040)
+![NumPy](https://img.shields.io/badge/NumPy-1a1040?style=for-the-badge&logo=numpy&logoColor=f0c040)
+![PyTorch](https://img.shields.io/badge/PyTorch-1a1040?style=for-the-badge&logo=pytorch&logoColor=f0c040)
 ![SQL](https://img.shields.io/badge/SQL-1a1040?style=for-the-badge&logo=postgresql&logoColor=f0c040)
+![C++](https://img.shields.io/badge/C++-1a1040?style=for-the-badge&logo=cplusplus&logoColor=f0c040)
+![C](https://img.shields.io/badge/C-1a1040?style=for-the-badge&logo=c&logoColor=f0c040)
+![ASM](https://img.shields.io/badge/ASM-1a1040?style=for-the-badge&logo=assemblyscript&logoColor=f0c040)
+![Java](https://img.shields.io/badge/Java-1a1040?style=for-the-badge&logo=openjdk&logoColor=f0c040)
+![HTML5](https://img.shields.io/badge/HTML5-1a1040?style=for-the-badge&logo=html5&logoColor=f0c040)
+![CSS3](https://img.shields.io/badge/CSS3-1a1040?style=for-the-badge&logo=css3&logoColor=f0c040)
+![JavaScript](https://img.shields.io/badge/JavaScript-1a1040?style=for-the-badge&logo=javascript&logoColor=f0c040)
 
 **[ Frameworks & Arsenals ]**
 
@@ -62,9 +69,16 @@
 
 **[ Constellations — Cloud ]**
 
-![AWS](https://img.shields.io/badge/AWS-0a0a1a?style=for-the-badge&logo=amazonaws&logoColor=f0c040)
-![GCP](https://img.shields.io/badge/GCP-0a0a1a?style=for-the-badge&logo=googlecloud&logoColor=f0c040)
-![Terraform](https://img.shields.io/badge/Terraform-0a0a1a?style=for-the-badge&logo=terraform&logoColor=f0c040)
+![Azure](https://img.shields.io/badge/Azure-0a0a1a?style=for-the-badge&logo=microsoftazure&logoColor=f0c040)
+![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0a0a1a?style=for-the-badge&logo=digitalocean&logoColor=f0c040)
+![Heroku](https://img.shields.io/badge/Heroku-0a0a1a?style=for-the-badge&logo=heroku&logoColor=f0c040)
+![MongoDB](https://img.shields.io/badge/MongoDB-0a0a1a?style=for-the-badge&logo=mongodb&logoColor=f0c040)
+![Vercel](https://img.shields.io/badge/Vercel-0a0a1a?style=for-the-badge&logo=vercel&logoColor=f0c040)
+![Postman](https://img.shields.io/badge/Postman-0a0a1a?style=for-the-badge&logo=postman&logoColor=f0c040)
+![JetBrains](https://img.shields.io/badge/JetBrains-0a0a1a?style=for-the-badge&logo=jetbrains&logoColor=f0c040)
+![Unity](https://img.shields.io/badge/Unity-0a0a1a?style=for-the-badge&logo=unity&logoColor=f0c040)
+![Arduino](https://img.shields.io/badge/Arduino-0a0a1a?style=for-the-badge&logo=arduino&logoColor=f0c040)
+![Figma](https://img.shields.io/badge/Figma-0a0a1a?style=for-the-badge&logo=figma&logoColor=f0c040)
 
 </div>
 
@@ -78,62 +92,22 @@
 <tr>
 <td width="50%">
 
-### 📖 [Project Alpha](https://github.com/yourusername/project-alpha)
-**[ Scenario Type: Survival / Infrastructure ]**
+### 📖 [Project Alpha](https://github.com/A-S-Ayon/my_second)
+**[ Scenario Type: practice ]**
 
-> *"When the servers go down, the story ends for everyone."*
+> *"Getting used to a forseen relam"*
+Just practicing and exploring
 
-Brief description of your project — what problem it solves, why it matters. Make it compelling. 1–2 sentences.
-
-`Python` `Kubernetes` `Redis` `PostgreSQL`
+`Python`
 
 ⭐ `XX stars` · 🍴 `XX forks`
 
 </td>
+
+
 <td width="50%">
 
-### 🌌 [Project Beta](https://github.com/yourusername/project-beta)
-**[ Scenario Type: Intelligence / ML ]**
 
-> *"The reader who sees patterns others cannot — that is true power."*
-
-Brief description of your project — what it does, what makes it interesting or technically impressive.
-
-`TypeScript` `React` `LLMs` `FastAPI`
-
-⭐ `XX stars` · 🍴 `XX forks`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### ⚔️ [Project Gamma](https://github.com/yourusername/project-gamma)
-**[ Scenario Type: Combat / Systems ]**
-
-> *"To rewrite the rules of the world — that is the final skill."*
-
-Brief description of your project. What was the hardest part? What did you build that didn't exist before?
-
-`Go` `gRPC` `Kafka` `Docker`
-
-⭐ `XX stars` · 🍴 `XX forks`
-
-</td>
-<td width="50%">
-
-### 🔮 [Project Delta](https://github.com/yourusername/project-delta)
-**[ Scenario Type: Prophecy / Data ]**
-
-> *"I had read every outcome. Only one path led to victory."*
-
-Brief description. What insight does this project offer? Who does it help and how does it change the outcome?
-
-`Rust` `WASM` `D3.js` `Parquet`
-
-⭐ `XX stars` · 🍴 `XX forks`
-
-</td>
 </tr>
 </table>
 
@@ -145,15 +119,15 @@ Brief description. What insight does this project offer? Who does it help and ho
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=YOURUSERNAME&show_icons=true&theme=transparent&title_color=f0c040&text_color=8888cc&icon_color=f0c040&border_color=2a2060&hide_border=false&include_all_commits=true&count_private=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=A-S-Ayon&show_icons=true&theme=transparent&title_color=f0c040&text_color=8888cc&icon_color=f0c040&border_color=2a2060&hide_border=false&include_all_commits=true&count_private=true" />
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOURUSERNAME&theme=transparent&title_color=f0c040&text_color=8888cc&border_color=2a2060&layout=compact&langs_count=8" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=A-S-Ayon&theme=transparent&title_color=f0c040&text_color=8888cc&border_color=2a2060&layout=compact&langs_count=8" />
 
 </div>
 
 <div align="center">
 
-<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=YOURUSERNAME&theme=transparent&ring=f0c040&fire=ff6644&currStreakLabel=f0c040&sideLabels=8888cc&border=2a2060&stroke=2a2060&background=00000000" />
+<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=A-S-Ayon&theme=transparent&ring=f0c040&fire=ff6644&currStreakLabel=f0c040&sideLabels=8888cc&border=2a2060&stroke=2a2060&background=00000000" />
 
 </div>
 
@@ -163,7 +137,7 @@ Brief description. What insight does this project offer? Who does it help and ho
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=YOURUSERNAME&bg_color=0a0a1a&color=f0c040&line=2a2060&point=f0c040&area=true&area_color=1a1040&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=A-S-Ayon&bg_color=0a0a1a&color=f0c040&line=2a2060&point=f0c040&area=true&area_color=1a1040&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
@@ -189,10 +163,10 @@ Brief description. What insight does this project offer? Who does it help and ho
 ```
 [ ONGOING SCENARIO ]  ──────────────────────────────────────────
 
-  ★  Learning  :  [ Your current learning focus ]
-  ⚔  Building  :  [ What you're currently building ]
-  🌌  Reading   :  [ A book, paper, or manhwa you're enjoying ]
-  🔮  Goal      :  [ Your current professional or personal goal ]
+  ★  Learning  :  [ Automation & Web Scraping ]
+  ⚔  Building  :  [ Anime Chatbot ]
+  🌌  Reading   :  [ Ai Research papers, Lord of the Mystries]
+  🔮  Goal      :  [Explore, Create ]
 
   "This is not the end of the story. There are still episodes left to write."
 
