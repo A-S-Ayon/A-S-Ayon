@@ -17,37 +17,7 @@
 ---
 
 <div align="center">
-
-╔══════════════════════════════════════════════════════════════════╗
-║ [CHARACTER PROFILE]                                 [-] [⧉] [X]  ║
-╠══════════════════════════════════════════════════════════════════╣
-║                                                                  ║
-║  NAME: A.S. AYON                                                 ║
-║  SUPPORTING CONSTELLATION: [GitHub ]                             ║
-║                                                                  ║
-║  PERSONAL ATTRIBUTE: [JACK OF ALL TRADES (RARE)]                 ║
-║  CURRENT SCENARIO:   [1863RD TURN — FINAL ARC]                   ║
-║                                                                  ║
-║  OVERALL STATS:                                                  ║
-║  [STAMINA LV. 7] [STRENGTH LV. 5] [AGILITY LV. 8] [MANA LV. 10]  ║
-║                                                                  ║
-║  COINS: 0USD                                                     ║
-║                                                                  ║
-║  GENERAL EVALUATION:                                             ║
-║  "An observer of a world never meant to be understood.           ║
-║   Will they survive to see the final episode?"                   ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝
-
-graph TD
-    subgraph "[CHARACTER PROFILE]   —  ◻  X"
-    A["<strong>NAME:</strong> A.S. AYON<br><strong>CONSTELLATION:</strong> THE MOST ANCIENT DREAM<br><br><strong>ATTRIBUTE:</strong> JACK OF ALL TRADES<br><strong>SCENARIO:</strong> 1863RD TURN — FINAL ARC<br><br><strong>STATS:</strong> [STAMINA LV.7] [MANA LV.10]<br><br><i>'Observing a world never meant to understand'</i>"]
-    end
-    style A fill:#003366,stroke:#00ccff,stroke-width:4px,color:#fff
-
----
-
-
+<img src="./orv_status.svg" width="100%" />
 </div>
 
 
