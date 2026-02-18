@@ -1,4 +1,6 @@
- readme.md 
+<div align="center">
+<img src="./orv_boot.svg" width="100%" />
+</div>
 
 <div align="center">
 <img src="./orv_status.svg" width="100%" />
