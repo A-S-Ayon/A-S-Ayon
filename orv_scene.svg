@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 860 240" font-family="'Courier New', Courier, monospace">
+  <defs>
+    <filter id="outerGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="panelGlow" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="textGlow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="panelBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#001a3a" stop-opacity="0.97"/>
+      <stop offset="100%" stop-color="#002850" stop-opacity="0.97"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#00ddff"/>
+      <stop offset="50%"  stop-color="#0099ee"/>
+      <stop offset="100%" stop-color="#00ddff"/>
+    </linearGradient>
+    <linearGradient id="scanlineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#00aaff" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#00ccff" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#00aaff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer glow shadow -->
+  <rect x="8" y="8" width="844" height="224" rx="4" ry="4"
+        fill="none" stroke="#00ccff" stroke-width="2" opacity="0.2"
+        filter="url(#outerGlow)"/>
+
+  <!-- Main panel -->
+  <rect x="10" y="10" width="840" height="220" rx="3" ry="3" fill="url(#panelBg)"/>
+
+  <!-- Outer border -->
+  <rect x="10" y="10" width="840" height="220" rx="3" ry="3"
+        fill="none" stroke="url(#borderGrad)" stroke-width="2" filter="url(#panelGlow)"/>
+
+  <!-- Inner border -->
+  <rect x="14" y="14" width="832" height="212" rx="2" ry="2"
+        fill="none" stroke="#00aadd" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Scanline -->
+  <rect x="10" y="10" width="840" height="220" fill="url(#scanlineGrad)" opacity="0.6"/>
+
+  <!-- Corner accents -->
+  <line x1="10" y1="28"  x2="10"  y2="10"  stroke="#00ffff" stroke-width="3" opacity="0.9"/>
+  <line x1="10" y1="10"  x2="30"  y2="10"  stroke="#00ffff" stroke-width="3" opacity="0.9"/>
+  <line x1="820" y1="10" x2="850" y2="10"  stroke="#00ffff" stroke-width="3" opacity="0.9"/>
+  <line x1="850" y1="10" x2="850" y2="28"  stroke="#00ffff" stroke-width="3" opacity="0.9"/>
+  <line x1="10"  y1="212" x2="10"  y2="230" stroke="#00ffff" stroke-width="3" opacity="0.9"/>
+  <line x1="10"  y1="230" x2="30"  y2="230" stroke="#00ffff" stroke-width="3" opacity="0.9"/>
+  <line x1="820" y1="230" x2="850" y2="230" stroke="#00ffff" stroke-width="3" opacity="0.9"/>
+  <line x1="850" y1="212" x2="850" y2="230" stroke="#00ffff" stroke-width="3" opacity="0.9"/>
+
+  <!-- Title bar -->
+  <rect x="10" y="10" width="840" height="38" rx="2" ry="2" fill="#0044bb" opacity="0.85"/>
+  <rect x="10" y="10" width="840" height="38" rx="2" ry="2" fill="none" stroke="#00aadd" stroke-width="0.5"/>
+
+  <!-- Title -->
+  <text x="430" y="35" fill="#ffffff" font-size="13" font-weight="bold"
+        letter-spacing="4" text-anchor="middle" filter="url(#textGlow)">
+    [ ONGOING SCENARIO ]
+  </text>
+
+  <!-- Window controls -->
+  <text x="768" y="34" fill="#aaddff" font-size="13" opacity="0.9">[-]</text>
+  <text x="796" y="34" fill="#aaddff" font-size="13" opacity="0.9">[□]</text>
+  <text x="824" y="34" fill="#ff6688" font-size="13" font-weight="bold">[X]</text>
+
+  <!-- Divider -->
+  <line x1="10" y1="48" x2="850" y2="48" stroke="#00aadd" stroke-width="1" opacity="0.7"/>
+
+  <!-- Left accent bar -->
+  <rect x="10" y="48" width="4" height="182" fill="#0066cc" opacity="0.6"/>
+
+  <!-- ── Content ── -->
+
+  <!-- Learning -->
+  <text x="44" y="85" fill="#f0c040" font-size="13.5">★</text>
+  <text x="66" y="85" fill="#4488aa" font-size="13">Learning</text>
+  <text x="152" y="85" fill="#4488aa" font-size="13">:</text>
+  <text x="168" y="85" fill="#aaddff" font-size="13">[ Automation &amp; Web Scraping ]</text>
+
+  <!-- Building -->
+  <text x="44" y="110" fill="#ff6688" font-size="13.5">⚔</text>
+  <text x="66" y="110" fill="#4488aa" font-size="13">Building</text>
+  <text x="152" y="110" fill="#4488aa" font-size="13">:</text>
+  <text x="168" y="110" fill="#aaddff" font-size="13">[ Anime Chatbot ]</text>
+
+  <!-- Reading -->
+  <text x="44" y="135" fill="#61dafb" font-size="13">🌌</text>
+  <text x="66" y="135" fill="#4488aa" font-size="13">Reading</text>
+  <text x="152" y="135" fill="#4488aa" font-size="13">:</text>
+  <text x="168" y="135" fill="#aaddff" font-size="13">[ AI Research Papers, Lord of the Mysteries ]</text>
+
+  <!-- Goal -->
+  <text x="44" y="160" fill="#2ecc71" font-size="13">🔮</text>
+  <text x="66" y="160" fill="#4488aa" font-size="13">Goal</text>
+  <text x="152" y="160" fill="#4488aa" font-size="13">:</text>
+  <text x="168" y="160" fill="#aaddff" font-size="13">[ Explore, Create ]</text>
+
+  <!-- Divider before quote -->
+  <line x1="36" y1="175" x2="824" y2="175" stroke="#0066aa" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- Quote -->
+  <text x="44" y="200" fill="#3a6a90" font-size="12" font-style="italic">
+    "This is not the end of the story. There are still episodes left to write."
+  </text>
+
+  <!-- Blinking cursor -->
+  <text x="36" y="222" fill="#00ccff" font-size="11" opacity="0.5">█
+    <animate attributeName="opacity" values="0.5;0;0.5" dur="1.2s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Animated scan sweep -->
+  <rect x="10" y="48" width="840" height="2" fill="#00ddff" opacity="0.06">
+    <animateTransform attributeName="transform" type="translate"
+                      values="0,0;0,180;0,0" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
