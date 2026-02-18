@@ -14,3 +14,12 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+<div align="center">
+
+# [ !] A New Constellation is watching your repository.
+
+### "There are three ways to survive in a ruined codebase. I have forgotten some, but one thing is certain: you who are reading this will survive."
+
+![Star Stream Banner](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmV3b3JraW5n/xT9IgzoKnwFNmISR8I/giphy.gif) 
+</div>
