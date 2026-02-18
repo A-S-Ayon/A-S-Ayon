@@ -5,13 +5,10 @@
 
 <div align="center">
 
-<!-- HEADER BANNER — replace URL with your own hosted banner image -->
-<!-- Suggested: use https://readme-typing-svg.demolab.com for animated text -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:001a3a,100:002850&height=220&section=header&text=★%20SCENARIO%20INITIATED%20★&fontSize=30&fontColor=f0c040&fontAlignY=40&desc=The%20only%20reader%20who%20knows%20how%20the%20story%20ends&descSize=15&descAlignY=65&descColor=00ccff&animation=fadeIn&fontAlign=50" width="100%"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a1a,50:1a1040,100:0d0d2b&height=200&section=header&text=★%20SCENARIO%20INITIATED%20★&fontSize=28&fontColor=f0c040&fontAlignY=45&desc=The%20only%20reader%20who%20knows%20how%20the%20story%20ends&descSize=14&descAlignY=68&descColor=8888cc&animation=fadeIn" width="100%"/>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=4000&pause=1000&color=00ccff&center=true&vCenter=true&multiline=true&width=600&height=80&lines=%5BSYSTEM%5D+The+fourth+wall+is+thinning...;Will+you+read+till+the+end%3F)](https://git.io/typing-svg)
 
-<!-- TYPING ANIMATION -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=4000&pause=1000&color=F0C040&center=true&vCenter=true&multiline=true&width=600&height=100&lines=%5BSYSTEM%5D+The+fourth+wall+is+thinning...;Will+you+read+till+the+end%3F)](https://git.io/typing-svg)
 </div>
 
 ---
