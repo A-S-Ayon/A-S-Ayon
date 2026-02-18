@@ -11,30 +11,46 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a1a,50:1a1040,100:0d0d2b&height=200&section=header&text=★%20SCENARIO%20INITIATED%20★&fontSize=28&fontColor=f0c040&fontAlignY=45&desc=The%20only%20reader%20who%20knows%20how%20the%20story%20ends&descSize=14&descAlignY=68&descColor=8888cc&animation=fadeIn" width="100%"/>
 
 <!-- TYPING ANIMATION -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=1000&color=F0C040&center=true&vCenter=true&multiline=true&width=600&height=80&lines=%5BSYSTEM%5D+New+Scenario+has+begun.;%5BSYSTEM%5D+An+Omniscient+Reader+has+entered+the+stage.;Will+you+survive+to+the+final+episode%3F)](https://git.io/typing-svg)
-
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=4000&pause=1000&color=F0C040&center=true&vCenter=true&multiline=true&width=600&height=100&lines=%5BSYSTEM%5D+The+fourth+wall+is+thinning...;Will+you+read+till+the+end%3F)](https://git.io/typing-svg)
 </div>
 
 ---
 
 <div align="center">
 
-```
-╔══════════════════════════════════════════════════════════╗
-║           ✦  STATUS  WINDOW  ✦                          ║
-║                                                          ║
-║   Name    :  [ A.S.Ayon]                                 ║
-║   Class   :  Jack of all Trades                          ║
-║   Scenario:  [ 1863rd Turn — Final Arc ]                 ║
-║   Coins   :  ████████████████░░░░  ∞                     ║
-║                                                          ║
-║   "Overserving a world never meant to understand"        ║
-╚══════════════════════════════════════════════════════════╝
-```
+╔══════════════════════════════════════════════════════════════════╗
+║ [CHARACTER PROFILE]                                 [-] [⧉] [X]  ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║  NAME: A.S. AYON                                                 ║
+║  SUPPORTING CONSTELLATION: [GitHub ]                             ║
+║                                                                  ║
+║  PERSONAL ATTRIBUTE: [JACK OF ALL TRADES (RARE)]                 ║
+║  CURRENT SCENARIO:   [1863RD TURN — FINAL ARC]                   ║
+║                                                                  ║
+║  OVERALL STATS:                                                  ║
+║  [STAMINA LV. 7] [STRENGTH LV. 5] [AGILITY LV. 8] [MANA LV. 10]  ║
+║                                                                  ║
+║  COINS: 0USD                                                     ║
+║                                                                  ║
+║  GENERAL EVALUATION:                                             ║
+║  "An observer of a world never meant to be understood.           ║
+║   Will they survive to see the final episode?"                   ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+
+graph TD
+    subgraph "[CHARACTER PROFILE]   —  ◻  X"
+    A["<strong>NAME:</strong> A.S. AYON<br><strong>CONSTELLATION:</strong> THE MOST ANCIENT DREAM<br><br><strong>ATTRIBUTE:</strong> JACK OF ALL TRADES<br><strong>SCENARIO:</strong> 1863RD TURN — FINAL ARC<br><br><strong>STATS:</strong> [STAMINA LV.7] [MANA LV.10]<br><br><i>'Observing a world never meant to understand'</i>"]
+    end
+    style A fill:#003366,stroke:#00ccff,stroke-width:4px,color:#fff
+
+---
+
 
 </div>
 
----
+
 
 ## ✦ Constellation Registry — Skills & Weapons
 
