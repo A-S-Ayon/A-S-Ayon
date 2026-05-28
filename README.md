@@ -8,9 +8,9 @@
 
 
 
-## ✦ Constellation Registry — Skills
+## Constellation Registry — Skills
 
-> *Every constellation grants power to those worthy of their sponsorship.*
+Skills registry snapshot.
 
 <div align="center">
 <img src="./orv_reg.svg" width="100%" />
@@ -19,15 +19,8 @@
 </div>
 
 ---
-
-
-
-
-
-
----
-
-## ✦ Current Scenario
+## Current Scenario
+Current scenario snapshot.
 <div align="center">
 <img src="./orv_scene.svg" width="100%" />
 </div>
