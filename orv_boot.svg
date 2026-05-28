@@ -1,191 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 860 320" font-family="'Courier New', Courier, monospace">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 860 320">
   <defs>
-    <filter id="outerGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="panelGlow" x="-5%" y="-5%" width="110%" height="110%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="textGlow">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="glowStrong">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="3.5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <linearGradient id="panelBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%"   stop-color="#001a3a" stop-opacity="0.97"/>
-      <stop offset="100%" stop-color="#002850" stop-opacity="0.97"/>
-    </linearGradient>
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%"   stop-color="#00ddff" stop-opacity="1"/>
-      <stop offset="50%"  stop-color="#0099ee" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#00ddff" stop-opacity="1"/>
-    </linearGradient>
-    <linearGradient id="scanlineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%"   stop-color="#00aaff" stop-opacity="0"/>
-      <stop offset="50%"  stop-color="#00ccff" stop-opacity="0.04"/>
-      <stop offset="100%" stop-color="#00aaff" stop-opacity="0"/>
-    </linearGradient>
     <style>
-      .l1  { animation: appear 0.01s 0.4s  both; }
-      .l2  { animation: appear 0.01s 1.1s  both; }
-      .l3  { animation: appear 0.01s 1.55s both; }
-      .l4  { animation: appear 0.01s 2.2s  both; }
-      .l5  { animation: appear 0.01s 2.65s both; }
-      .l6  { animation: appear 0.01s 3.3s  both; }
-      .l7  { animation: appear 0.01s 3.75s both; }
-      .sep { animation: appear 0.01s 4.3s  both; }
-      .fin { animation: appear 0.3s  4.5s  both; }
-      @keyframes appear {
-        from { opacity: 0; }
-        to   { opacity: 1; }
-      }
+      .bg { fill: #0f172a; }
+      .panel { fill: #0b1220; stroke: #334155; stroke-width: 1; }
+      .header { fill: #111827; stroke: #334155; stroke-width: 1; }
+      .title { fill: #e2e8f0; font: 600 15px 'Inter', 'Segoe UI', sans-serif; letter-spacing: 1px; }
+      .value { fill: #e2e8f0; font: 12px 'JetBrains Mono', 'Fira Code', monospace; }
+      .muted { fill: #94a3b8; font: 12px 'JetBrains Mono', 'Fira Code', monospace; }
+      .status-ok { fill: #22c55e; font: 12px 'JetBrains Mono', 'Fira Code', monospace; }
+      .status-active { fill: #38bdf8; font: 12px 'JetBrains Mono', 'Fira Code', monospace; }
+      .divider { stroke: #334155; stroke-width: 1; }
+      .final { fill: #e2e8f0; font: 600 14px 'JetBrains Mono', 'Fira Code', monospace; letter-spacing: 1px; }
     </style>
   </defs>
 
-  <!-- Outer glow shadow -->
-  <rect x="8" y="8" width="844" height="304" rx="4" ry="4"
-        fill="none" stroke="#00ccff" stroke-width="2" opacity="0.2"
-        filter="url(#outerGlow)"/>
+  <rect class="bg" x="0" y="0" width="860" height="320" />
+  <rect class="panel" x="16" y="16" width="828" height="288" rx="6" />
+  <rect class="header" x="16" y="16" width="828" height="44" rx="6" />
 
-  <!-- Main panel body -->
-  <rect x="10" y="10" width="840" height="300" rx="3" ry="3"
-        fill="url(#panelBg)"/>
+  <text class="title" x="40" y="44">SYSTEM INITIALIZATION</text>
+  <line class="divider" x1="16" y1="72" x2="844" y2="72" />
 
-  <!-- Outer border — bright cyan -->
-  <rect x="10" y="10" width="840" height="300" rx="3" ry="3"
-        fill="none" stroke="url(#borderGrad)" stroke-width="2"
-        filter="url(#panelGlow)"/>
+  <text class="muted" x="40" y="98">• Establishing connection to the Akashic Records…</text>
+  <text class="value" x="40" y="120">• Connection established</text>
+  <text class="status-ok" x="330" y="120">[OK]</text>
 
-  <!-- Inner border -->
-  <rect x="14" y="14" width="832" height="292" rx="2" ry="2"
-        fill="none" stroke="#00aadd" stroke-width="0.5" opacity="0.5"/>
+  <text class="muted" x="40" y="144">• Detecting active scenario…</text>
+  <text class="value" x="40" y="166">• Scenario detected</text>
+  <text class="status-active" x="280" y="166">[ACTIVE]</text>
 
-  <!-- Scanline overlay -->
-  <rect x="10" y="10" width="840" height="300"
-        fill="url(#scanlineGrad)" opacity="0.6"/>
+  <text class="muted" x="40" y="190">• Locating player entity…</text>
+  <text class="value" x="40" y="212">• Entity confirmed</text>
+  <text class="status-ok" x="270" y="212">[FOUND]</text>
 
-  <!-- Corner accent marks -->
-  <line x1="10" y1="30" x2="10"  y2="10"  stroke="#00ffff" stroke-width="3" opacity="0.9"/>
-  <line x1="10" y1="10" x2="30"  y2="10"  stroke="#00ffff" stroke-width="3" opacity="0.9"/>
-  <line x1="820" y1="10" x2="850" y2="10"  stroke="#00ffff" stroke-width="3" opacity="0.9"/>
-  <line x1="850" y1="10" x2="850" y2="30"  stroke="#00ffff" stroke-width="3" opacity="0.9"/>
-  <line x1="10"  y1="290" x2="10"  y2="310" stroke="#00ffff" stroke-width="3" opacity="0.9"/>
-  <line x1="10"  y1="310" x2="30"  y2="310" stroke="#00ffff" stroke-width="3" opacity="0.9"/>
-  <line x1="820" y1="310" x2="850" y2="310" stroke="#00ffff" stroke-width="3" opacity="0.9"/>
-  <line x1="850" y1="290" x2="850" y2="310" stroke="#00ffff" stroke-width="3" opacity="0.9"/>
+  <text class="muted" x="40" y="236">• Loading character data…</text>
 
-  <!-- Title bar -->
-  <rect x="10" y="10" width="840" height="38" rx="2" ry="2"
-        fill="#0044bb" opacity="0.85"/>
-  <rect x="10" y="10" width="840" height="38" rx="2" ry="2"
-        fill="none" stroke="#00aadd" stroke-width="0.5"/>
+  <line class="divider" x1="40" y1="252" x2="820" y2="252" />
 
-  <!-- Title text -->
-  <text x="430" y="35"
-        fill="#ffffff" font-size="15" font-weight="bold"
-        letter-spacing="4" text-anchor="middle"
-        filter="url(#textGlow)">
-    [  SYSTEM   INITIALIZATION ]
-  </text>
-
-  <!-- Window controls -->
-  <text x="768" y="34" fill="#aaddff" font-size="13" opacity="0.9">[-]</text>
-  <text x="796" y="34" fill="#aaddff" font-size="13" opacity="0.9">[□]</text>
-  <text x="824" y="34" fill="#ff6688" font-size="13" font-weight="bold">[X]</text>
-
-  <!-- Divider under title -->
-  <line x1="10" y1="48" x2="850" y2="48" stroke="#00aadd" stroke-width="1" opacity="0.7"/>
-
-  <!-- Left accent bar -->
-  <rect x="10" y="48" width="4" height="262" fill="#0066cc" opacity="0.6"/>
-
-  <!-- ── Body lines ── -->
-
-  <g class="l1">
-    <text x="36" y="80" fill="#4499bb" font-size="13">
-      &gt; ESTABLISHING CONNECTION TO THE AKASHIC RECORDS . . .
-    </text>
-  </g>
-
-  <g class="l2">
-    <text x="36" y="103" fill="#aaddff" font-size="13">&gt; CONNECTION ESTABLISHED</text>
-    <text x="278" y="103" fill="#2ecc71" font-size="13" filter="url(#textGlow)">[ ✓  OK ]</text>
-  </g>
-
-  <g class="l3">
-    <text x="36" y="126" fill="#4499bb" font-size="13">
-      &gt; DETECTING ACTIVE SCENARIO . . .
-    </text>
-  </g>
-
-  <g class="l4">
-    <text x="36" y="149" fill="#aaddff" font-size="13">&gt; SCENARIO DETECTED</text>
-    <text x="210" y="149" fill="#2ecc71" font-size="13" filter="url(#textGlow)">[ ✓  ACTIVE ]</text>
-  </g>
-
-  <g class="l5">
-    <text x="36" y="172" fill="#4499bb" font-size="13">
-      &gt; LOCATING PLAYER ENTITY . . .
-    </text>
-  </g>
-
-  <g class="l6">
-    <text x="36" y="195" fill="#aaddff" font-size="13">&gt; ENTITY CONFIRMED</text>
-    <text x="203" y="195" fill="#2ecc71" font-size="13" filter="url(#textGlow)">[ ✓  FOUND ]</text>
-  </g>
-
-  <g class="l7">
-    <text x="36" y="218" fill="#4499bb" font-size="13">
-      &gt; LOADING CHARACTER DATA . . .
-    </text>
-  </g>
-
-  <!-- Separator -->
-  <g class="sep">
-    <line x1="36" y1="236" x2="824" y2="236"
-          stroke="#0066aa" stroke-width="0.5" opacity="0.6"/>
-  </g>
-
-  <!-- Final message -->
-  <g class="fin">
-    <text x="430" y="265"
-          fill="#ffffff" font-size="15" font-weight="bold"
-          letter-spacing="3" text-anchor="middle"
-          filter="url(#glowStrong)">
-      [ PROFILE INITIALIZATION COMPLETE ]
-    </text>
-    <text x="430" y="288"
-          fill="#88ccff" font-size="12"
-          letter-spacing="2" text-anchor="middle">
-      TWO CONSTELLATIONS ARE WATCHING . . .
-    </text>
-  </g>
-
-  <!-- Animated scan line sweep -->
-  <rect x="10" y="48" width="840" height="3" fill="#00ddff" opacity="0.07">
-    <animateTransform attributeName="transform" type="translate"
-                      values="0,0;0,260;0,0" dur="4s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- Blinking cursor -->
-  <text x="36" y="308" fill="#00ccff" font-size="13" opacity="0.5">█
-    <animate attributeName="opacity" values="0.5;0;0.5" dur="1.2s" repeatCount="indefinite"/>
-  </text>
+  <text class="final" x="40" y="278">PROFILE INITIALIZATION COMPLETE</text>
+  <text class="muted" x="40" y="298">Two constellations are watching.</text>
 </svg>
